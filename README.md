@@ -9,7 +9,7 @@
 Start by cloning the AIgantry repository to your local machine.
 
 <div align="center">
-  <pre><code>git clone https://github.com/TTU-HEP/AIgantry.git
+<pre><code>git clone https://github.com/TTU-HEP/AIgantry.git
 cd AIgantry
 </code></pre>
 </div>
@@ -18,7 +18,7 @@ cd AIgantry
 Next, create a new Conda environment for this project with Python 3.9 and install the required dependencies.
 
 <div align="center">
-  <pre><code>conda create -n aienv python=3.9 -y
+<pre><code>conda create -n aienv python=3.9 -y
 conda activate aienv
 pip install -r requirements.txt
 </code></pre>
@@ -28,7 +28,7 @@ pip install -r requirements.txt
 Create a directory for the modules, then add the modules with their associated images.
 
 <div align="center">
-  <pre><code>mkdir Modules
+<pre><code>mkdir Modules
 cd Modules
 # Add your module files and images here!
 cd ..
@@ -42,14 +42,14 @@ To generate the Tornado plots, follow these steps:
    This script will ask for the path to the directory. Enter the name of the module directory you created in Step 3.
 
 <div align="center">
-  <pre><code>python3 run_detect.py
+<pre><code>python3 run_detect.py
 </code></pre>
 </div>
 
 2. **Run the Tornado plot script**:
 
 <div align="center">
-  <pre><code>python3 ArrowPlotScript.py
+<pre><code>python3 ArrowPlotScript.py
 </code></pre>
 </div>
 
