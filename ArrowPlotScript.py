@@ -13,7 +13,9 @@ from math import dist
 import pandas as pd
 
 def get_module_paths(module_name):
-    base_dir = os.path.join('/home/akshriva/AIgantry/Tornado/Web', 'Modules')
+    current_dir = os.getcwd()
+    base_dir = os.path.join(current_dir, 'Modules')
+    #base_dir = os.path.join('/home/akshriva/AIgantry/Tornado/Web', 'Modules')
     images_dir = os.path.join(base_dir, module_name, 'Results')
     labels_dir = os.path.join(base_dir, module_name, 'Results','labels')
 
