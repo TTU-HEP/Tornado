@@ -54,7 +54,3 @@ To generate the Tornado plots, follow these steps:
 </div>
 
 ---
-
-This format will make it look neat, with the commands centered and displayed in a copy-friendly code block, just like the example you showed. 
-
-Let me know if you need further adjustments!
