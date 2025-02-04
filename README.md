@@ -9,7 +9,7 @@
 Start by cloning the AIgantry repository to your local machine.
 
 <div align="center">
-  <pre><code>git clone https://github.com/TTU-HEP/AIgantry.git
+  <pre><code>git clone https://github.com/TTU-HEP/Tornado
 cd AIgantry
 </code></pre>
 </div>
