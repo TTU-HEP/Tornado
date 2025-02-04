@@ -45,7 +45,7 @@ Before generating the Tornado plots, open the `ArrowPlotScript.py` file and set 
 Inside the script, locate the section where the path is defined and modify it as needed:
 
 <div align="center">
-  <pre><code>MODULES_PATH = "./Modules"
+  <pre><code>base_dir = os.path.join('/home/akshriva/AIgantry/Tornado/github_copy', 'Modules')
 </code></pre>
 </div>
 
