@@ -36,7 +36,7 @@ cd ..
 Before generating the Tornado plots, open the `ArrowPlotScript.py` file and set the path to the Modules directory.
 
 ```
-nano ArrowPlotScript.py</code></pre>
+nano ArrowPlotScript.py
 ```
 
 Inside the script, locate the section where the path is defined and modify it as needed:
@@ -54,13 +54,13 @@ To generate the Tornado plots, follow these steps:
    This script will ask for the path to the directory. Enter the name of the module directory you created in Step 3.
 
 ```
-python3 run_detect.py</code></pre>
+python3 run_detect.py
 ```
 
 2. **Run the Tornado plot script**:
 
 ```
-python3 ArrowPlotScript.py</code></pre>
+python3 ArrowPlotScript.py
 ```
 
 ---
