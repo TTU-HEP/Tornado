@@ -1,3 +1,4 @@
+
 import os
 import cv2
 import numpy as np
@@ -214,6 +215,14 @@ def finaldf(df2, df3_sorted):
     print("FINAL DF", finaldf)
     return finaldf
 
+
+def finaldf(df2, df3_sorted):
+    df2['ImageKey'] = df2['Images'].str.replace('.jpg', '', regex=False)
+    df3_sorted['ImageKey'] = df3_sorted['Images'].str.replace('.txt', '', regex=False)
+    
+    finaldf = df2.merge(df3_sorted[['ImageKey', 'X', 'Y']], on='ImageKey', how='left')
+    print("FINAL DF", finaldf)
+    return finaldf
 
 def create_arrow_plot(finaldf, df3, images_path,module_name):
     x = np.array(finaldf['X'])
